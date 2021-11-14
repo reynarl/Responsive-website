@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.fila{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    clear: both;
+    display: table; /*para que se respeten*/
+}
+
+[class*="col-"]{ /*Definimos que todas las clases que inician con col- tendran todas esas propiedades*/
+    float: left;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.col-12{ /*una columna*/
+    width: 100%;
+    background: yellowgreen;
+}
+
+.col-6{ /*Dos columnas*/
+    width: 50%;
+    background: rgb(99, 211, 34);
+}
+
+.col-4{ /*Tres columnas*/
+    width: 33.33333333%; /* se recomienda usar 8 decimales*/
+    background: blueviolet;
+}
+
+.col-3{
+    width: 25%;
+}
+
+.col-9{
+    width: 75%;
+}
+
+.col-7{
+    width: 58.33333333%;
+}
+
+.col-5{
+    width: 41.66666666%;
+}
+
+.col-8{
+    width: 66.66666666%;
+}
+
+.col-2{
+    width: 16.66666666%;
+}
+
+.col-1{
+    width: 8.33333333%;
+}
+
+.col-10{
+    width: 83.33333333%;
+}
+
+.col-11{
+    width: 91.66666666%;
+}
